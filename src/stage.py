@@ -29,6 +29,5 @@ class Stage:
         player.add_component(Velocity(1, 0, 100))
 
     def load_systems(self):
-        print("did")
         self.world.add_update_system(MovementSystem())
         self.world.add_render_system(ImageRenderingSystem())
