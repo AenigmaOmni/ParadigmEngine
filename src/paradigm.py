@@ -31,7 +31,7 @@ class Paradigm:
         self.lastTime = t
 
         #do updating here
-        self.stage.update(delta, self.inputMap)
+        self.stage.update(delta)
 
     def draw(self):
         self.screen.fill( (0,0,0) )
