@@ -1,5 +1,10 @@
 from src.globals import *
 
+"""
+This system checks for velocity and position on a component and moves the entities position
+based on the velocity and speed.
+"""
+
 class MovementSystem:
     def __init__(self):
         pass

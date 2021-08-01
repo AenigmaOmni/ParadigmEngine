@@ -1,5 +1,10 @@
 from src.globals import *
 
+"""
+This system checks for a positional component and an image component on entities, if it finds them
+then it draws the image loaded into the image component.
+"""
+
 class ImageRenderingSystem:
     def __init__(self):
         pass

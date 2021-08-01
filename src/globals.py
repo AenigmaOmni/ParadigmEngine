@@ -9,3 +9,4 @@ TITLE = "Paradigm Engine v0.0.1"
 C_POSITION = 0
 C_VELOCITY = 1
 C_IMAGE = 2
+C_INPUT_CONTROLLER = 3
