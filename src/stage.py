@@ -30,7 +30,7 @@ class Stage:
         player = self.world.make_entity()
         player.add_component(Position(0, 100))
         player.add_component(Image("res/blue_box.png"))
-        player.add_component(Velocity(0, 0, 100))
+        player.add_component(Velocity(0, 0, 200))
         player.add_component(VelocityInput())
         player.add_component(InputController())
 

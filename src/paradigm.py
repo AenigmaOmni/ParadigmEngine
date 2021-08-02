@@ -8,7 +8,7 @@ class Paradigm:
         self.running = True
         pygame.init()
         self.size = (WINDOW_WIDTH, WINDOW_HEIGHT)
-        self.screen = pygame.display.set_mode(self.size, DOUBLEBUF | HWSURFACE)
+        self.screen = pygame.display.set_mode(self.size, flags=pygame.SCALED, vsync=1)
         self.lastTime = 0
         pygame.display.set_caption(TITLE)
         pygame.mixer.set_num_channels(MAX_SOUND_CHANNELS)
